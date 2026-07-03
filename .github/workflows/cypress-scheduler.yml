@@ -1,0 +1,39 @@
+name: Cypress Automation
+
+on:
+  schedule:
+    - cron: '/5 * * * *'   # Every hour
+  workflow_dispatch:      # Run manually
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Set Environment Variables
+        run: |
+          echo "EMAIL_USER=${{ secrets.EMAIL_USER }}" >> $GITHUB_ENV
+          echo "EMAIL_PASS=${{ secrets.EMAIL_PASS }}" >> $GITHUB_ENV
+
+      - name: Run Cypress Tests
+        run: npm run execute
+
+      - name: Upload Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-report
+          path: |
+            CypressExecutionReport.xlsx
+            cypress/videos/
+            cypress/reports/
