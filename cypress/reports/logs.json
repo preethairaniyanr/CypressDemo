@@ -1,0 +1,32 @@
+[
+  {
+    "testcase": "Login",
+    "status": "PASS",
+    "remarks": "Login Successful"
+  },
+  {
+    "testcase": "Home Page",
+    "status": "PASS",
+    "remarks": "Home Page Navigation Successful"
+  },
+  {
+    "testcase": "Add Item",
+    "status": "PASS",
+    "remarks": "Items Added Successfuly!!"
+  },
+  {
+    "testcase": "Remove Item",
+    "status": "PASS",
+    "remarks": "Items Removed Successfuly!!"
+  },
+  {
+    "testcase": "Continue Shopping Flow",
+    "status": "PASS",
+    "remarks": "Continue Shopping works!!"
+  },
+  {
+    "testcase": "Checkout Flow",
+    "status": "PASS",
+    "remarks": "Checkout Button works!!"
+  }
+]

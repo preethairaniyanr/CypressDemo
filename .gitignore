@@ -1,0 +1,7 @@
+node_modules/
+.env
+automation.log
+CypressExecutionReport.xlsx
+cypress/videos/
+cypress/screenshots/
+
