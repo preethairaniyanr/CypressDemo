@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2026-07-03T09:39:20.721Z",
-    "end": "2026-07-03T09:39:39.156Z",
-    "duration": 18435,
+    "start": "2026-07-03T15:35:07.011Z",
+    "end": "2026-07-03T15:35:27.891Z",
+    "duration": 20880,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "6de5e6c4-f103-46ca-96eb-a1138e071949",
+      "uuid": "700af292-67ff-4c78-8f49-0ce44bd3cc94",
       "title": "",
       "fullFile": "cypress/e2e/spec.cy.js",
       "file": "cypress/e2e/spec.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d0a54c0b-8ef8-417a-893c-c7eb80d84323",
+          "uuid": "231484be-5802-4eaa-af70-2f36cc9306f5",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Adding cart item",
               "fullTitle": "Login Adding cart item",
               "timedOut": null,
-              "duration": 14460,
+              "duration": 18068,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "logindetails.loginCred();\ndashboard.dashboardCheck();\ncartItem.AddItems();\ncartItem.removeItems();\ncartItem.continueShopping();\ncartItem.checkout();",
               "err": {},
-              "uuid": "258fef78-a961-438b-85f9-a6289c15eb55",
-              "parentUUID": "d0a54c0b-8ef8-417a-893c-c7eb80d84323",
+              "uuid": "36e276ed-9ca0-4f70-9bd0-e3f723268b09",
+              "parentUUID": "231484be-5802-4eaa-af70-2f36cc9306f5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "258fef78-a961-438b-85f9-a6289c15eb55"
+            "36e276ed-9ca0-4f70-9bd0-e3f723268b09"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14460,
+          "duration": 18068,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -95,7 +95,7 @@
     "marge": {
       "options": {
         "reportDir": "cypress/reports",
-        "overwrite": false,
+        "overwrite": true,
         "html": true,
         "json": true
       },
