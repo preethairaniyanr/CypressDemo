@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2026-07-03T15:35:07.011Z",
-    "end": "2026-07-03T15:35:27.891Z",
-    "duration": 20880,
+    "start": "2026-07-03T16:30:08.573Z",
+    "end": "2026-07-03T16:30:32.916Z",
+    "duration": 24343,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "700af292-67ff-4c78-8f49-0ce44bd3cc94",
+      "uuid": "4403226b-07ef-46b4-ace7-2529b47ff801",
       "title": "",
       "fullFile": "cypress/e2e/spec.cy.js",
       "file": "cypress/e2e/spec.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "231484be-5802-4eaa-af70-2f36cc9306f5",
+          "uuid": "e33a9b3a-d02d-4ffd-b970-884c2d4dc997",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Adding cart item",
               "fullTitle": "Login Adding cart item",
               "timedOut": null,
-              "duration": 18068,
+              "duration": 19874,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "logindetails.loginCred();\ndashboard.dashboardCheck();\ncartItem.AddItems();\ncartItem.removeItems();\ncartItem.continueShopping();\ncartItem.checkout();",
               "err": {},
-              "uuid": "36e276ed-9ca0-4f70-9bd0-e3f723268b09",
-              "parentUUID": "231484be-5802-4eaa-af70-2f36cc9306f5",
+              "uuid": "c0e020f8-c293-4a19-a22b-1d8627429e45",
+              "parentUUID": "e33a9b3a-d02d-4ffd-b970-884c2d4dc997",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "36e276ed-9ca0-4f70-9bd0-e3f723268b09"
+            "c0e020f8-c293-4a19-a22b-1d8627429e45"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 18068,
+          "duration": 19874,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
